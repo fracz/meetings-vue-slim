@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9714f8a4395b0986e73c119e43409ab4",
+    "content-hash": "e7d5ba8672f54f08513f6600a0a3a5f8",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -310,6 +310,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*",
+        "ext-sqlite3": "*"
+    },
     "platform-dev": []
 }
