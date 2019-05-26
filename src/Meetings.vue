@@ -37,15 +37,11 @@
       };
     },
     mounted() {
-      this.$http.get('participants').then(response => {
-        this.people = response.body;
-      });
+      // get the list
     },
     methods: {
       addNewParticipant(participant) {
-        this.$http.post('participants', participant).then(response => {
-          this.people.push(response.body);
-        });
+        this.people.push(participant);
       }
     }
   };
